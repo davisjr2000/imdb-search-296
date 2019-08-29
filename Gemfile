@@ -15,6 +15,11 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+gem 'kaminari'
+gem 'pg_search', '~> 2.3.0'
+gem 'searchkick', '~> 3.0'
+gem 'roberto_barros'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
